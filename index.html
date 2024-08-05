@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="cur-cal">
+        <form>
+            <div class="calculator">
+                <h1>CURRENCY CALCULATOR</h1>
+                <div class="cal" id="amount">
+                    <p id="amt">AMOUNT</p>
+                    <input type="number" id="amt" value="" placeholder="Enter amount" required>
+                </div>
+                <div class="cal" id="from">
+                    <p>FROM</p>
+                    <img src="https://flagsapi.com/US/shiny/32.png" id="fromFlag">
+                    <select name="from" class="country" id="fromcurr">
+                        
+                    </select>
+                </div>
+                <div class="cal" id="to">
+                    <p>TO</p>
+                    <img src="https://flagsapi.com/BG/shiny/32.png" id="toFlag">
+                    <select name="to" class="country" id="tocurr">
+                        
+                    </select>
+                </div>
+                <div class="cal">
+                    <p class="msg"></p>
+                </div>
+                <div class="cal" id="btn-cont">
+                    <button class="button">Get Exchange Rate</button>
+                </div>
+            </div>
+    </form>
+    </div>
+
+
+
+    <script src="codes.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
